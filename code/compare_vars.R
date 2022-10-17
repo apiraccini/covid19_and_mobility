@@ -15,9 +15,6 @@ library(tidyverse)
 
 # utils ------------------------------------------------------------------------
 
-proj_dir  <-  "~/R_Jobs/DatiFunzionali/progetto_funzionali"
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
-
 load("data/finaldata.RData")
 ls()
 
