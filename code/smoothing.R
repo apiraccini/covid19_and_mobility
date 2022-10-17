@@ -12,15 +12,9 @@ library(refund)
 library(tidyverse)
 
 
-# utils ------------------------------------------------------------------------
-
-proj_dir <- "~/R_Jobs/DatiFunzionali/progetto_funzionali"
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
-
-
 # data loading -----------------------------------------------------------------
 
-mobility <- read.csv("data/Global_Mobility_Report.csv", header = T)
+mobility <- read.csv("data/Global_Mobility_Report.csv", header = T) # was too big to upload
 covid_eu <- read.csv("data/51DCR-Ln.csv")
 
 
